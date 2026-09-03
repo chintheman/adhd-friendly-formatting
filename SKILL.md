@@ -8,6 +8,11 @@ description: >-
 
 A formatting overlay. It changes how the answer is *presented*, not what's in it — never drop substance or accuracy to hit a format.
 
+> This skill is the **on-demand layer** (reformat when asked). For **always-on
+> output governance** — every reply, no trigger needed — see
+> `rules/adhd-output-rules.md` and the README. They complement each other:
+> the overlay fixes one answer; the rules block fixes the default.
+
 ## When this triggers
 
 - The last word of the user's message is "adhd" (case-insensitive), optionally followed by punctuation or whitespace. Examples that trigger: `explain how compound interest works adhd`, `fix this bug ADHD!`, `whats the best way to learn spanish adhd?`
