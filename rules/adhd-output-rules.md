@@ -79,6 +79,13 @@ verify:
 - first + last line tell the reader what to do and what happened
 - the message would survive deleting every heading and bullet (Rule 0)
 - no formatting was applied to an out-of-scope span (Scope)
+- if the message hands the reader a command or an action, it names the machine
+  the action runs on and where they type it — no "here", "this machine", "the
+  terminal", "the session". A bare "run this" is unactionable when the files and
+  the reader are on different machines
+- no closing paragraph confessing a limitation or an "honest gap": a caveat
+  belongs inline with the substance, and only when it changes what the reader
+  does. Manufactured doubt is not rigour, and it buries the finding
 - if it has next steps, pending work, blockers or a handoff, it closes with an
   ownership block — **MINE:** what you handle, **YOURS:** the user's exact
   actions (or "nothing yet — <why>") — as the final element, after any closing
