@@ -35,6 +35,26 @@ and tables are never reshaped.
 10. **No preamble, no recap, no closers** — no "Great question," "Let me,"
     "Hope this helps," "Anything else?"
 
+## The ownership block is an exception, not a footer (2026-09-12)
+
+Chin, seeing one on every message across a long session: *"Too many mines and yours
+scattered all over."* A label that appears every turn stops being read, which is the
+opposite of what it is for.
+
+- **Never write "MINE: nothing running."** That is a footer performing diligence and
+  saying nothing. If nothing is running, omit MINE entirely.
+- **Never write "YOURS: nothing."** Same reason. If he has nothing to do, the message
+  ends without a block at all.
+- **Include MINE only when something is genuinely in flight right now** — a running
+  agent, a started job — so he knows not to duplicate it.
+- **Include YOURS only when he must act**, and only for items that are still open.
+  Do not re-list an item he has already been told about in the previous message
+  unless it changed.
+- **When both are empty, the message just ends.** A turn with nothing outstanding is
+  the clearest possible signal, and a ritual block hides it.
+- One label in a sentence mid-message ("that one's on me") is still prose and still
+  fine. The formatted block is the thing being rationed.
+
 ## Long-response shape (added 2026-09-11, from a response Chin singled out as readable)
 
 These govern any message over ~10 lines. They are what made that one work, and what
