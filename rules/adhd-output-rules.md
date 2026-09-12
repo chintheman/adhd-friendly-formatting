@@ -45,6 +45,12 @@ opposite of what it is for.
   saying nothing. If nothing is running, omit MINE entirely.
 - **Never write "YOURS: nothing."** Same reason. If he has nothing to do, the message
   ends without a block at all.
+- **The ban is on the claim, not the label.** "Nothing needs your action" in prose is
+  the same claim as "YOURS: nothing" and fails identically. A go/no-go, a choice, a
+  confirmation are each an action: pairing that ask with a no-action claim tells him to
+  stop reading at the moment you need him to read, and a reader who learns the label
+  cannot be trusted reads the whole block anyway — the exact failure it exists to
+  prevent. Ask, or don't; one message never does both.
 - **Include MINE only when something is genuinely in flight right now** — a running
   agent, a started job — so he knows not to duplicate it.
 - **Include YOURS only when he must act**, and only for items that are still open.
@@ -108,8 +114,9 @@ verify:
   does. Manufactured doubt is not rigour, and it buries the finding
 - if it has next steps, pending work, blockers or a handoff, it closes with an
   ownership block — **MINE:** what you handle, **YOURS:** the user's exact
-  actions (or "nothing yet — <why>") — as the final element, after any closing
-  next-step line
+  actions — as the final element, after any closing next-step line. A label whose
+  content would be empty is omitted; if the message asks him for anything, that
+  ask IS the YOURS line
 
 ## Off-switches
 
