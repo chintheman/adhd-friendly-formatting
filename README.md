@@ -2,9 +2,10 @@
 
 Two layers that stop AI assistants from writing walls of text:
 
-1. **Always-on output governance** — a rules block (Scope → Rule 0 → 10 Rules →
+1. **Always-on output governance** — a rules block (Scope → Rule 0 → Rules →
    Pre-Send Check → Off-switches) that shapes *every* chat reply: answer first,
-   substance over format, no preamble, no recap, no closers.
+   plain English instead of system vocabulary, substance over format, no preamble,
+   no recap, no closers.
 2. **On-demand overlay** — end any prompt with the word `adhd` and the agent
    reformats *that one answer* (kill the wall, number the steps, bold the
    load-bearing words).

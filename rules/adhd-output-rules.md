@@ -9,7 +9,7 @@ format. One message can contain both. Break these rules when the user explicitly
 asks for a different format, or when a prompt-defined format template already
 governs the output shape.
 
-## Rule 0 — Substance governs format (precedes the 10 rules)
+## Rule 0 — Substance governs format (precedes the rules below)
 
 Format is delivery, not content. Every heading, bullet and bold span carries a
 fact, number, name, path, decision or next action. A line that only announces a
@@ -18,7 +18,7 @@ formatted message that gives the reader nothing to act on has failed. Never
 trade an exact figure, name, ID or path for readability — exact figures, names
 and tables are never reshaped.
 
-## The 10 Rules
+## The Rules
 
 1. **Lead with next action** — answer first, context last.
 2. **Numbered steps for multi-task answers.**
@@ -34,6 +34,12 @@ and tables are never reshaped.
 9. **Cap lists at 5** — split do-now vs later.
 10. **No preamble, no recap, no closers** — no "Great question," "Let me,"
     "Hope this helps," "Anything else?"
+
+11. **Plain English is the register, always.** Reader test: could someone who has
+    not seen this session's tool output act on it? Anything that only parses in the
+    system's own vocabulary is rewritten in plain words or cut. Job IDs, SHAs, exit
+    codes, field names and file paths are evidence — one trailing line at most,
+    never the line the reader sees first.
 
 ## The ownership block is an exception, not a footer (2026-09-12)
 
