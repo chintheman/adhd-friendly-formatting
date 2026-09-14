@@ -10,7 +10,7 @@ talk to Claude. For full governance, paste the complete block from
 `rules/skim-master-rules.md` into a Project's instructions instead (~8,000-char
 cap).
 
-Character count of the block below: **1,402** (verified under the cap).
+Character count of the block below: **1,458** (verified under the ~1,500 cap).
 
 ---
 
