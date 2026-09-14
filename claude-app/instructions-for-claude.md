@@ -7,7 +7,7 @@ Why slim: the account-level box caps at ~1,500 characters, and the full rules
 block's machine-directed spans (subagent prompts, commit messages, PR bodies,
 JSON) are dead weight in plain chats. This keeps the rules that matter when you
 talk to Claude. For full governance, paste the complete block from
-`rules/adhd-output-rules.md` into a Project's instructions instead (~8,000-char
+`rules/skim-master-rules.md` into a Project's instructions instead (~8,000-char
 cap).
 
 Character count of the block below: **1,402** (verified under the cap).

@@ -1,4 +1,4 @@
-# adhd-friendly-formatting — output rules for AI agents
+# Skim Master — output rules for AI agents
 
 Two layers that stop AI assistants from writing walls of text:
 
@@ -6,7 +6,7 @@ Two layers that stop AI assistants from writing walls of text:
    Pre-Send Check → Off-switches) that shapes *every* chat reply: answer first,
    plain English instead of system vocabulary, substance over format, no preamble,
    no recap, no closers.
-2. **On-demand overlay** — end any prompt with the word `adhd` and the agent
+2. **On-demand overlay** — end any prompt with the word `skim` and the agent
    reformats *that one answer* (kill the wall, number the steps, bold the
    load-bearing words).
 
@@ -18,10 +18,10 @@ across Hermes Agent (core), Claude Code, and the Claude app.
 
 | Path | What it is |
 |---|---|
-| `rules/adhd-output-rules.md` | **Canonical rules block.** Drop-in file for any agent with standing instructions (Claude Code, Hermes, custom system prompts) |
+| `rules/skim-master-rules.md` | **Canonical rules block.** Drop-in file for any agent with standing instructions (Claude Code, Hermes, custom system prompts) |
 | `claude-app/instructions-for-claude.md` | Slim version for the Claude app's account-level "Instructions for Claude" (~1,500-char cap) |
 | `examples/before-after-explained.md` | The same answer before/after, with the rule firing on every line explained |
-| `SKILL.md` | The `adhd`-suffix overlay as an installable skill |
+| `SKILL.md` | The `skim`-suffix overlay as an installable skill (`adhd` still fires it) |
 | `LICENSE` | MIT |
 
 ## Install
@@ -30,7 +30,7 @@ across Hermes Agent (core), Claude Code, and the Claude app.
 
 ```bash
 mkdir -p ~/.claude/rules
-cp rules/adhd-output-rules.md ~/.claude/rules/
+cp rules/skim-master-rules.md ~/.claude/rules/
 ```
 
 Files in `~/.claude/rules/` auto-load at session start — no import line, no
@@ -45,15 +45,15 @@ version from `claude-app/instructions-for-claude.md`. Applies to new chats.
 For full governance on a work project, paste the complete block into that
 Project's instructions instead (~8,000-char cap there).
 
-**Hermes Agent**: shipped in core. `agent.adhd_output_rules: true` in
+**Hermes Agent**: shipped in core. The config key keeps its legacy name, `agent.adhd_output_rules: true`, in
 config.yaml (default on); `output_style: broadcast` suppresses it for
-report-shaped sessions. `rules/adhd-output-rules.md` mirrors the production
+report-shaped sessions. `rules/skim-master-rules.md` mirrors the production
 constant.
 
 **Any other agent**: paste the block into its system prompt / custom
 instructions equivalent.
 
-**Ad-hoc, one answer**: end your prompt with the word `adhd` — see `SKILL.md`
+**Ad-hoc, one answer**: end your prompt with the word `skim` — see `SKILL.md`
 for trigger rules and the formatting overlay.
 
 ## The shape of it

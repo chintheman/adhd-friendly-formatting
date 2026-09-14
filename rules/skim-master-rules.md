@@ -1,4 +1,4 @@
-# ADHD Output Rules — chat output governance
+# Skim Master Rules — chat output governance
 
 ## Scope
 

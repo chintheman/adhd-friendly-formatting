@@ -1,23 +1,18 @@
 ---
-name: adhd-friendly-formatting
+name: skim-master
 description: >-
-  Use when a message ends in adhd — reformat the reply.
+  Use when a message ends in skim or adhd — reformat the reply so nothing load-bearing is only in the middle.
 ---
 
-# ADHD-Friendly Formatting
+# Skim Master
 
 A formatting overlay. It changes how the answer is *presented*, not what's in it — never drop substance or accuracy to hit a format.
 
-> This skill is the **on-demand layer** (reformat when asked). For **always-on
-> output governance** — every reply, no trigger needed — see
-> `rules/adhd-output-rules.md` and the README. They complement each other:
-> the overlay fixes one answer; the rules block fixes the default.
-
 ## When this triggers
 
-- The last word of the user's message is "adhd" (case-insensitive), optionally followed by punctuation or whitespace. Examples that trigger: `explain how compound interest works adhd`, `fix this bug ADHD!`, `whats the best way to learn spanish adhd?`
-- The user's entire message is just `adhd` on its own — reformat the response immediately above it using the rules below, don't ask what they mean.
-- "adhd" appearing mid-sentence, not at the end (e.g. "I have adhd, should I..."), is NOT a trigger by itself — treat it as context about the user, not a formatting command.
+- The last word of the user's message is "skim" or "adhd" (case-insensitive), optionally followed by punctuation or whitespace. Examples that trigger: `explain how compound interest works skim`, `fix this bug adhd!`, `whats the best way to learn spanish skim?`
+- The user's entire message is just `skim` or `adhd` on its own — reformat the response immediately above it using the rules below, don't ask what they mean.
+- Either word appearing mid-sentence, not at the end (e.g. "I have adhd, should I...", "let me skim this"), is NOT a trigger by itself — treat it as context, not a formatting command.
 
 ## Before responding
 
@@ -42,7 +37,7 @@ A formatting overlay. It changes how the answer is *presented*, not what's in it
 
 > This usually happens when your starter is hungry and has run out of food, causing it to produce excess alcohol and acidic byproducts that give off that sharp, nail-polish-remover smell. It's most common when starters are left too long between feedings, kept somewhere too warm, or fed with too little flour relative to the amount of starter. The good news is this doesn't mean it's dead — you can usually revive it by discarding most of it and feeding it more frequently for a day or two...
 
-**With trigger** ("why does my sourdough starter smell like acetone adhd"):
+**With trigger** ("why does my sourdough starter smell like acetone skim"):
 
 > **Short answer: it's hungry, not dead.**
 >

@@ -23,7 +23,7 @@ that shaped each line — that's the "explanations baked into the output."
 
 Wall of text. Answer buried in paragraph 2. Reads like a textbook, not help.
 
-## After — under the ADHD output rules
+## After — under the Skim Master rules
 
 > **Short answer: it's hungry, not dead.** **[Rule 1 — lead with the answer; Rule 0 — the line carries the fact]**
 >
@@ -60,11 +60,11 @@ restructure the delivery; they never cut substance.
 
 ## Try it yourself
 
-1. **Claude Code** — save `rules/adhd-output-rules.md` to
-   `~/.claude/rules/adhd-output-rules.md`. Every session follows it.
+1. **Claude Code** — save `rules/skim-master-rules.md` to
+   `~/.claude/rules/skim-master-rules.md`. Every session follows it.
 2. **Claude app** — paste the slim version (`claude-app/instructions-for-claude.md`)
    into Settings → General → Profile → "Instructions for Claude".
-3. **Ad-hoc** — end any prompt with the word `adhd` to reformat that one answer
+3. **Ad-hoc** — end any prompt with the word `skim` to reformat that one answer
    (see `SKILL.md`).
 
 Then ask the agent the same question again and watch the difference.
